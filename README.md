@@ -1,24 +1,16 @@
-# Pain Points of Contribution in the Drupal Community
+# Debugging in Drupal 8
 Note:
 - KG
-- Hello Everyone! We are going to talk about "Pain Points of Contribution in the
-Drupal Community".
+- Hello Everyone! We are going to talk about "Debugging in D8"
 
 
-
-
-## Notes
-[bit.ly/pain-points-notes](http://bit.ly/pain-points-notes)
 
 ## Slides
 [bit.ly/pain-points-slides](http://bit.ly/pain-points-slides)
 
 Note:
-- KG
--bit.ly link for taking notes because more notes are better and after the
-session, Val and I will be preparing synthesis.
-We have posted slides with speaker notes online and bit.ly
-link for our session is. You can follow along the slides.
+I have posted slides with speaker notes online and bit.ly
+link for this session is. You can follow along the slides.
 
 
 
@@ -39,17 +31,6 @@ Government and non-profit organizations.
 
 
 <!-- .slide: data-background="custom/images/" data-background-size="" data-state="show-header" data-header="" -->
-## Valery Lourie
-
-<a href="https://www.drupal.org/u/valthebald"><i class="fa fa-drupal"></i> valthebald</a>
-
-<a href="https://twitter.com/valthebald"><i class="fa fa-twitter"></i> valthebald</a>
-
-Note:
-- Val
-- Drupal developer, devops
-- Founder, Wise Trout Drupal agency
-- I am hirable!
 
 
 
