@@ -23,7 +23,6 @@ link for this session is. You can follow along the slides.
 
 Note:
 - KG
-I am from Washington D.C.
 - Developer at Forum One
 - Forum One is full service digital agency and does lot of work in Drupal for
 Government and non-profit organizations.
@@ -35,8 +34,8 @@ Government and non-profit organizations.
 
 
 <!-- .element: class="heading" -->
-<!-- .slide: data-background="custom/images/mentoring.jpg"  data-state="show-header" data-header="" -->
-## Contribution
+<!-- .slide: data-background="custom/images/09September_1.jpg"  data-state="show-header" data-header="" -->
+## First mention of bug and debugging
 <!-- .element: class="heading" -->
 
 Note:
@@ -91,7 +90,7 @@ Note:
 
 
 
-## 
+##
 
 <img src="custom/images/subscribe-core.png"  />
 Note:
