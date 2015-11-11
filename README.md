@@ -142,6 +142,7 @@ Note:
 - Render caching enable by default to speed up page load
 
 
+
 ## Disable render cache
 if (file_exists(__DIR__ . '/settings.local.php')) {
   include __DIR__ . '/settings.local.php';
@@ -171,21 +172,19 @@ Note:
 
 
 
-## Credit to mentors
+## 
 Note:
 -
 
 
 
 
-## User profile
-<img src="custom/images/bio-1.png" />
+## 
 
 
 
 
-## User profile
-<img src="custom/images/bio-2.png" />
+## 
 Note:
 
 
@@ -199,8 +198,7 @@ Note:
 
 
 
-## Companies
-<img src="custom/images/companies.png" />
+## 
 
 
 
