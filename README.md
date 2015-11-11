@@ -60,24 +60,34 @@ Note:
 
 
 
-##
+## Debugging in Drupal 8
 Note:
-- KG
+- 
 
 
 
 
 
-## 
+## <!-- .slide: data-background="custom/images/website_error.png" data-background-size="" data-state="show-header" data-header="" -->
 Note:
--KG
+- If you see this sort of error (in my case long back while installing standard installation)
+- doesn't give much information about error
 
 
 
 
-## 
+## https://www.drupal.org/node/2313059
 Note:
-- KG
+- No error shown by default
+- NR would be great
+
+
+
+
+## $config['system.logging']['error_level'] = 'verbose';
+Note:
+- Add this in settings.php
+- where?
 
 
 
