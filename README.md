@@ -40,13 +40,21 @@ Government and non-profit organizations.
 
 Note:
 - KG
+- First reported bug in 1947
+- Bug and debugging terms are attributed to Grace Hopper when she was working on computer at Harward University.
+- Someone discovered moth stuck and stop the operation, she made a remark that they are debugging the system 
+- and since then we are using that term.
 
 
 
 
-## 
+
+## Debugging steps 
 Note:
-- KG
+- Write tests so there are minimal chances of bug in your code
+- if a bug does exist, reproduce a problem
+- use debug in your code. In D7 - var_dump(), dpm
+- find the source of the problem and fix it.
 
 
 
