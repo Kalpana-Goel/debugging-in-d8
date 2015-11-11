@@ -76,7 +76,7 @@ Note:
 
 
 
-## https://www.drupal.org/node/2313059
+## www.drupal.org/node/2313059
 Note:
 - No error shown by default
 - NR would be great
@@ -92,51 +92,73 @@ Note:
 
 
 
-## 
+## www.drupal.org/node/2320959
 Note:
-- KG
+- Active/developer tricks/tools for D8
 
 
 
 
-## 
-
+## Twig debugging 
 Note:
-- KG
+- services.yml 
+- if not cp sites/default/services.yml to services.yml
 
 
 
-
-
-##
-
-<img src="custom/images/subscribe-core.png"  />
+## parameters:
+  twig.config:
+    debug: true
 Note:
-- Val
+- enable twig debugging
 
 
 
-
-
-##
+## Benefits of enabling debugging in Twig
 Note:
--
+- Default: false
+- dump() output template variables
+- template file name suggestions
+- turn it off while running automated tests otherwise fail for tests checking rendered HTMl example?
+- Turn off in production
 
 
 
-
-##
-
-
+## Twig auto-reload
 Note:
--
+- automatically recompile Twig templates if source code changes
+- Turn off in production
 
 
 
-
-##
+## Twig cache
 Note:
-- KG
+- 
+
+
+
+## Drupal render cache
+Note:
+- Render caching enable by default to speed up page load
+
+
+## Disable render cache
+if (file_exists(__DIR__ . '/settings.local.php')) {
+  include __DIR__ . '/settings.local.php';
+}
+Note:
+- uncomment from settings.local.php
+- drush cr
+
+
+
+
+## $settings['cache']['bins']['render'] = 'cache.backend.null';
+$settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
+Note:
+- uncomment from settins.local.php
+- drush cr
+- explain why
 
 
 
