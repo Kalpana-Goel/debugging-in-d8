@@ -87,7 +87,8 @@ Note:
 ## $config['system.logging']['error_level'] = 'verbose';
 Note:
 - Add this in settings.php
-- where?
+- settings.local.php to settings.php and uncomment the following the bottom of the file
+- this turns CSS/JS aggregation off if you enable it
 
 
 
