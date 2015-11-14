@@ -73,71 +73,23 @@ Note:
 
 
 
+
+## $config['system.logging']['error_level'] = 'verbose';
+Note:
+- examples.settings.local.php to settings.local.php, Uncomment lines in settings.php referring to settings.local.php 
+ and uncomment the following the bottom of the file
+- this turns CSS/JS aggregation off if you enable it
+- Take a look in settings.local.php for in-depth documenation
+
+
+
+
 ## www.drupal.org/node/2313059
 Note:
 - No error shown by default
 - NR would be great
 
 
-
-
-## $config['system.logging']['error_level'] = 'verbose';
-Note:
-- Add this in settings.php
-- settings.local.php to settings.php and uncomment the following the bottom of the file
-- this turns CSS/JS aggregation off if you enable it
-
-
-
-
-## www.drupal.org/node/2320959
-Note:
-- Active/developer tricks/tools for D8
-
-
-
-
-## Twig debugging 
-Note:
-- services.yml 
-- if not cp sites/default/services.yml to services.yml
-
-
-
-## parameters:
-  twig.config:
-    debug: true
-Note:
-- enable twig debugging
-
-
-
-## Benefits of enabling debugging in Twig
-Note:
-- Default: false
-- dump() output template variables
-- template file name suggestions
-- turn it off while running automated tests otherwise fail for tests checking rendered HTMl example?
-- Turn off in production
-
-
-
-## Twig auto-reload
-Note:
-- automatically recompile Twig templates if source code changes
-- Turn off in production
-
-
-
-## Twig cache
-Note:
-- 
-
-
-
-## Drupal render cache
-Note:
-- Render caching enable by default to speed up page load
 
 
 
@@ -158,6 +110,59 @@ Note:
 - uncomment from settins.local.php
 - drush cr
 - explain why
+
+
+
+
+## Twig debugging 
+Note:
+- Drupal8 uses Twig as its templating engine so let's talk about debugging in Twig
+- services.yml 
+- if not cp sites/default/default.services.yml to services.yml
+
+
+
+## parameters:
+  twig.config:
+    debug: true
+Note:
+- enable twig debugging
+
+
+
+## Benefits of enabling debugging in Twig
+Note:
+- Default: false
+- dump() output template variables
+- template file name suggestions
+- turn it off while running automated tests otherwise fail for tests checking rendered HTMl example?
+- Turn off in production
+- It enables auto-reload
+
+
+
+## Twig auto-reload
+Note:
+- automatically recompile Twig templates if source code changes 
+- Turn off in production
+- look in services.yml file to read more about it
+
+
+
+
+## Twig cache
+Note:
+- Its bad to disable twig cache
+- don't touch it 
+
+
+
+
+## Drupal render cache
+Note:
+- Render caching enable by default to speed up page load
+
+
 
 
 
