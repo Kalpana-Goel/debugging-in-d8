@@ -29,9 +29,6 @@ Government and non-profit organizations.
 
 
 
-<!-- .slide: data-background="custom/images/" data-background-size="" data-state="show-header" data-header="" -->
-
-
 
 <!-- .element: class="heading" -->
 <!-- .slide: data-background="custom/images/09September_1.jpg"  data-state="show-header" data-header="" -->
