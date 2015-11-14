@@ -73,7 +73,7 @@ Note:
 
 
 
-
+### Enable Error Messages
 ## $config['system.logging']['error_level'] = 'verbose';
 Note:
 - examples.settings.local.php to settings.local.php, Uncomment lines in settings.php referring to settings.local.php 
@@ -92,33 +92,27 @@ Note:
 
 
 
-
-## Disable render cache
-if (file_exists(__DIR__ . '/settings.local.php')) {
-  include __DIR__ . '/settings.local.php';
-}
+### Disable Render Cache
+## $settings['cache']['bins']['render'] = 'cache.backend.null';
 Note:
 - uncomment from settings.local.php
 - drush cr
+- Explain why? if you have a piece of content and if you want to make a change in the node
+or block twig template, to display the changes then you would need to clear the cache all the time
+if you don't want to do that then disable render cache. 
 
 
 
 
-## $settings['cache']['bins']['render'] = 'cache.backend.null';
-$settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
-Note:
-- uncomment from settins.local.php
-- drush cr
-- explain why
 
-
-
-
-## Twig debugging 
+## Twig debugging
 Note:
 - Drupal8 uses Twig as its templating engine so let's talk about debugging in Twig
-- services.yml 
+- services.yml
 - if not cp sites/default/default.services.yml to services.yml
+
+
+
 
 
 
@@ -127,6 +121,8 @@ Note:
     debug: true
 Note:
 - enable twig debugging
+
+
 
 
 
@@ -141,11 +137,47 @@ Note:
 
 
 
+
+
+
 ## Twig auto-reload
 Note:
-- automatically recompile Twig templates if source code changes 
+- automatically recompile Twig templates if source code changes
 - Turn off in production
 - look in services.yml file to read more about it
+
+
+
+
+
+## Twig cache
+Note:
+- Its bad to disable twig cache
+- don't touch it
+
+
+
+
+
+## Drupal render cache
+Note:
+- Render caching enable by default to speed up page load
+
+
+
+
+
+### Disable Dynamic Page Cache
+## $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
+
+
+
+
+
+
+
+
+
 
 
 
