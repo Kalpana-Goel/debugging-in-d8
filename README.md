@@ -92,6 +92,18 @@ Note:
 
 
 
+## Runtime Assertions
+
+
+
+
+### Disable Dynamic Page Cache
+## $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
+
+
+
+
+
 ### Disable Render Cache
 ## $settings['cache']['bins']['render'] = 'cache.backend.null';
 Note:
@@ -100,25 +112,27 @@ Note:
 - Explain why? if you have a piece of content and if you want to make a change in the node
 or block twig template, to display the changes then you would need to clear the cache all the time
 if you don't want to do that then disable render cache. 
-
+- Render caching enable by default to speed up page load
+- Since we are talking about twig templates, lets talk about debugging in Twig
+ 
 
 
 
 
 ## Twig debugging
 Note:
-- Drupal8 uses Twig as its templating engine so let's talk about debugging in Twig
-- services.yml
+- Drupal8 uses Twig as its templating engine 
+- services.yml (turn on settings for enabling twig debugging is in services.yml)
 - if not cp sites/default/default.services.yml to services.yml
 
 
 
 
 
-
-## parameters:
+## How to enable debugging
+ <code>parameters:
   twig.config:
-    debug: true
+    debug: true </code>
 Note:
 - enable twig debugging
 
@@ -130,8 +144,7 @@ Note:
 Note:
 - Default: false
 - dump() output template variables
-- template file name suggestions
-- turn it off while running automated tests otherwise fail for tests checking rendered HTMl example?
+- template file name suggestions - make it different slide to show it
 - Turn off in production
 - It enables auto-reload
 
@@ -158,134 +171,23 @@ Note:
 
 
 
-
-## Drupal render cache
+## knit
 Note:
-- Render caching enable by default to speed up page load
+- may be already familiar with knit
+- It's way better than dump()
+- knit module is sub-module of devel module which you can use as a debugging tool. you can use it from php or twig template.
 
 
 
 
+## Console
 
-### Disable Dynamic Page Cache
-## $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
 
 
 
 
 
-
-
-
-
-
-
-
-
-## Twig cache
-Note:
-- Its bad to disable twig cache
-- don't touch it 
-
-
-
-
-## Drupal render cache
-Note:
-- Render caching enable by default to speed up page load
-
-
-
-
-
-
-##
-Note:
-- KG
-
-
-
-
-
-## 
-Note:
--
-
-
-
-
-## 
-
-
-
-
-## 
-Note:
-
-
-
-
-
-##
-Note:
-
-
-
-
-
-## 
-
-
-
-
-
-##
-
-Note:
--
-
-
-
-
-##
-
-<img src="custom/images/apache_contributors.png" />
-Note:
--
-
-
-
-
-##
-
-<img src="custom/images/Apache_timeline.png" />
-Note:
-
-
-
-
-
-
-##
-
-<img src="custom/images/long_tail.png" />
-
-<small>photo credit: </small>
-Note:
-
-
-
-
-
-##
-*
-*
-Note:
--
-
-
-
-##
+## Web-profiler
 
 
 
