@@ -154,10 +154,19 @@ Note:
 
 
 
+## Template file name
+<img src = "custom/images/template_file.png">
+Note:
+- Twig template file name suggestions are in order from most specific to least specific
+- current file name suggestion in use has an "x" beside it
+- Along with the BEGIN OUTPUT and END OUTPUT you will find the full path to the template being rendered
+
+
 
 
 ## Twig auto-reload
 Note:
+- This is another benefit of enabling Twig debug option
 - automatically recompile Twig templates if source code changes
 - Turn off in production
 - look in services.yml file to read more about it
