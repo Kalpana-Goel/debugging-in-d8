@@ -6,7 +6,7 @@ Note:
 
 
 ## Slides
-[bit.ly/pain-points-slides](http://bit.ly/pain-points-slides)
+[bit.ly/debugging-d8](http://bit.ly/debugging-d8)
 
 Note:
 I have posted slides with speaker notes online and bit.ly
