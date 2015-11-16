@@ -200,6 +200,27 @@ Note:
 
 
 ## Web-profiler
+Note:
+- useful for debugging, performance testing
+- learn how your site handles request
+- Symfony 2 comes with WebProfiler bundle. It collects information about each request made to your site
+- Allows to visualize in the browser
+- WebProfiler is now a sub-module of devel
+
+
+
+## WebProfiler in browser
+<img src = "custom/images/webprofiler.png">
+Note:
+- Download devel module
+- enable devel and webprofiler module
+- clear cache
+- Set the permission
+
+
+
+
+## <video data-autoplay src="custom/images/webprofiler_video.mov"></video>
 
 
 
