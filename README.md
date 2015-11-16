@@ -220,6 +220,94 @@ Note:
 
 
 
+## PHP Config
+<img src="custom/images/php_config.png">
+Note:
+- Details about PHP version, enabled extensions
+
+
+
+
+## Request Info
+<img src = "custom/images/request_info.png">
+- Info related to page request example - route matched, route object, request header, cookies
+
+
+
+
+## Timeline
+<img src="custom/images/timeline.png">
+Note:
+- Allows to visualize the order in which PHP controllers and events are called and time to compile them.
+- Helps debug slow page load
+
+
+
+
+## Performace Timing
+<img src="custom/images/performance_timing.png">
+Note:
+-
+
+
+
+
+## Database
+<img src="custom/images/database.png">
+Note:
+- queries are listed in execution order with ability to search by filter (select, insert)
+- or filter by slow query
+- displays execution time, PHP file that made query
+- EXPLAIN, INFO and SWAPPLACEHOLDERS
+
+
+
+## User
+<img src="custom/images/user.png">
+Note:
+- Name of current user
+- roles etc. Provider?
+
+
+
+
+
+## Views
+Note:
+- Displays list of views that was rendered on the current page
+
+
+
+
+## Forms
+Note:
+- Lists forms built on the current page
+
+
+
+
+## Extensions
+Note:
+- Displays all the modules and themes that are enabled on the site
+
+
+
+
+## Cache
+<img src="custom/images/cache.png">
+Note:
+- Displays different caches by ID and the number of hits/miss
+
+
+
+
+## Assets
+Note:
+- Provides list of all CSS and JS files that were loaded for the page request
+
+
+
+
 ## <video data-autoplay src="custom/images/webprofiler_video.mov"></video>
 
 
