@@ -36,7 +36,6 @@ Government and non-profit organizations.
 <!-- .element: class="heading" -->
 
 Note:
-- KG
 - First reported bug in 1947
 - Bug and debugging terms are attributed to Grace Hopper when she was working on computer at Harward University.
 - Someone discovered moth stuck and stop the operation, she made a remark that they are debugging the system 
@@ -78,7 +77,7 @@ Note:
 $config['system.logging']['error_level'] = 'verbose';
 </code></pre>
 Note:
-- examples.settings.local.php to settings.local.php, Uncomment lines in settings.php referring to settings.local.php 
+- cp examples.settings.local.php to settings.local.php, Uncomment lines in settings.php referring to settings.local.php 
  and uncomment the following the bottom of the file
 - this turns CSS/JS aggregation off if you enable it
 - Take a look in settings.local.php for in-depth documenation
@@ -149,7 +148,7 @@ Note:
 Note:
 - Default: false
 - dump() output template variables
-- template file name suggestions - make it different slide to show it
+- template file name suggestions
 - Turn off in production
 - It enables auto-reload
 
@@ -206,7 +205,7 @@ Note:
 - useful for debugging, performance testing
 - learn how your site handles request
 - Symfony 2 comes with WebProfiler bundle. It collects information about each request made to your site
-- Allows to visualize in the browser
+- Allows to visualize data in the browser
 - WebProfiler is now a sub-module of devel
 
 
