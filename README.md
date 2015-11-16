@@ -94,14 +94,6 @@ Note:
 
 
 
-## Runtime Assertions
-Note:
-- Assertions should be used only for debugging.
-- Assertion is a true-false expression which is always expected to be true
-- If an assertion is ever FALSE it indicates an error in the code
-
-
-
 ### Disable Dynamic Page Cache
 ## <pre><code data-trim>
 $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
