@@ -65,7 +65,7 @@ Note:
 
 
 
-## <!-- .slide: data-background="custom/images/website_error.png" data-background-size="" data-state="show-header" data-header="" -->
+## <img src="custom/images/website_error.png">
 Note:
 - If you see this sort of error (in my case long back while installing standard installation)
 - doesn't give much information about error
