@@ -237,6 +237,7 @@ Note:
 
 ## Request Info
 <img src = "custom/images/request_info.png">
+Note:
 - Info related to page request example - route matched, route object, request header, cookies
 
 
