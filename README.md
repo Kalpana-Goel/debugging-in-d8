@@ -98,7 +98,10 @@ Note:
 ## <pre><code data-trim>
 $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
 </code></pre>
-
+Note:
+- Cache only bit of the page for example user block or menu block which 
+- displays dynamic info about user name and menu based on user permission
+- won't be cached but everything else like static block
 
 
 
@@ -275,7 +278,9 @@ Note:
 <img src="custom/images/user.png">
 Note:
 - Name of current user
-- roles etc. Provider?
+- roles etc.
+- Provider - If basic oauth module is enabled and basic configuration is setup then
+it will display basic auth. In thos case its cookie
 
 
 
