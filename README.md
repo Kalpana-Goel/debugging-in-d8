@@ -123,7 +123,7 @@ if you don't want to do that then disable render cache.
 Note:
 - Drupal8 uses Twig as its templating engine 
 - services.yml (turn on settings for enabling twig debugging is in services.yml)
-- if not cp sites/default/default.services.yml to services.yml
+- if not cp sites/default/default.services.yml to sites/default/services.yml
 
 
 
@@ -258,7 +258,16 @@ Note:
 - queries are listed in execution order with ability to search by filter (select, insert)
 - or filter by slow query
 - displays execution time, PHP file that made query
-- EXPLAIN, INFO and SWAPPLACEHOLDERS
+
+
+
+## Database
+<img src="custom/images/database_explore.png">
+Note:
+- Click on "explain" details about type of query (fast or slow)
+- table
+- display info and swappable key 
+
 
 
 
@@ -273,6 +282,7 @@ Note:
 
 
 ## Views
+<img src="custom/images/views.png">
 Note:
 - Displays list of views that was rendered on the current page
 
@@ -280,6 +290,7 @@ Note:
 
 
 ## Forms
+<img src="custom/images/forms.png">
 Note:
 - Lists forms built on the current page
 
