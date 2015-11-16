@@ -74,7 +74,9 @@ Note:
 
 
 ### Enable Error Messages
-## $config['system.logging']['error_level'] = 'verbose';
+## <pre><code data-trim>
+$config['system.logging']['error_level'] = 'verbose';
+</code></pre>
 Note:
 - examples.settings.local.php to settings.local.php, Uncomment lines in settings.php referring to settings.local.php 
  and uncomment the following the bottom of the file
@@ -84,7 +86,7 @@ Note:
 
 
 
-## www.drupal.org/node/2313059
+## [drupal.org/node/2313059](http://www.drupal.org/node/2313059)
 Note:
 - No error shown by default
 - NR would be great
@@ -101,14 +103,17 @@ Note:
 
 
 ### Disable Dynamic Page Cache
-## $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
-
+## <pre><code data-trim>
+$settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
+</code></pre>
 
 
 
 
 ### Disable Render Cache
-## $settings['cache']['bins']['render'] = 'cache.backend.null';
+## <pre><code data-trim>
+$settings['cache']['bins']['render'] = 'cache.backend.null';
+</code></pre>
 Note:
 - uncomment from settings.local.php
 - drush cr
@@ -133,9 +138,11 @@ Note:
 
 
 ## How to enable debugging
- <code>parameters:
+<pre><code data-trim>
+parameters:
   twig.config:
-    debug: true </code>
+    debug: true 
+</code></pre>
 Note:
 - enable twig debugging
 
