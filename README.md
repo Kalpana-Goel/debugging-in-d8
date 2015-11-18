@@ -110,7 +110,11 @@ Note:
 ### Render Cache
 ## <pre><code data-trim>
 $settings['cache']['bins']['render'] = 'cache.backend.null';
-</code></pre>
+</code>
+<code>
+if (file_exists(__DIR__ . '/settings.local.php')) {
+  include __DIR__ . '/settings.local.php';
+}</code></pre>
 Note:
 - uncomment from settings.local.php
 - drush cr
