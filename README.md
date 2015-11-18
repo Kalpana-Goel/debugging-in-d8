@@ -184,11 +184,11 @@ Note:
 
 
 
-## knit
+## kint
 Note:
 - may be already familiar with knit
 - It's way better than dump()
-- knit module is sub-module of devel module which you can use as a debugging tool. you can use it from php or twig template.
+- kint module is sub-module of devel module which you can use as a debugging tool. you can use it from php or twig template.
 
 
 
