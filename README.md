@@ -197,7 +197,6 @@ Note:
 ## kint
 <img src = "custom/images/features-content-aware.png">
 <pre><code data-trim>
-parameters:
   kint($vars);
 </code></pre>
 Note:
@@ -212,7 +211,6 @@ Note:
 ## kint - backtrace
 <img src = "custom/images/trace-preview.png">
 <pre><code data-trim>
-parameters:
   kint_trace();
 </code></pre>
 
