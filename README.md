@@ -198,7 +198,7 @@ Note:
 <img src = "custom/images/features-content-aware.png">
 <pre><code data-trim>
 parameters:
-  kint( 
+  kint($vars);
 </code></pre>
 Note:
 - do you have an example of this?
