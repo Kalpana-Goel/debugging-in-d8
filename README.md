@@ -204,6 +204,8 @@ Note:
 - kint module is sub-module of devel module which you can use as a debugging tool. you can use it from php or twig template.
 
 
+
+
 ## kint - backtrace
 <img src = "custom/images/trace-review.png">
 
@@ -213,6 +215,9 @@ Note:
 - It's way better than dump()
 - kint module is sub-module of devel module which you can use as a debugging tool. you can use it from php or twig template.
 
+
+
+
 ## kint - theme information
 <img src = "custom/images/theme-review.png">
 
@@ -221,6 +226,8 @@ Note:
 - may be already familiar with knit
 - It's way better than dump()
 - kint module is sub-module of devel module which you can use as a debugging tool. you can use it from php or twig template.
+
+
 
 
 ### Console
