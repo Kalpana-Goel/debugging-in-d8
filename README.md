@@ -196,7 +196,10 @@ Note:
 
 ## kint
 <img src = "custom/images/features-content-aware.png">
-
+<pre><code data-trim>
+parameters:
+  kint( 
+</code></pre>
 Note:
 - do you have an example of this?
 - may be already familiar with knit
@@ -207,7 +210,11 @@ Note:
 
 
 ## kint - backtrace
-<img src = "custom/images/trace-review.png">
+<img src = "custom/images/trace-preview.png">
+<pre><code data-trim>
+parameters:
+  kint_trace();
+</code></pre>
 
 Note:
 - do you have an example of this?
@@ -218,8 +225,8 @@ Note:
 
 
 
-## kint - theme information
-<img src = "custom/images/theme-review.png">
+## kint - different themes
+<img src = "custom/images/theme-preview.png">
 
 Note:
 - do you have an example of this?
