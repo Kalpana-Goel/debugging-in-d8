@@ -195,6 +195,7 @@ Note:
 
 
 ## kint
+<img src = "custom/images/features-content-aware.png">
 Note:
 - do you have an example of this?
 - may be already familiar with knit
