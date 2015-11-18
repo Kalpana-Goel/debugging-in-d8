@@ -93,18 +93,21 @@ Note:
 
 
 
-### Disable Dynamic Page Cache
+###  Dynamic Page Cache
 ## <pre><code data-trim>
 $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
 </code></pre>
 Note:
+- uncomment from settings.local.php
+- drush cr
+- enabled by default???
 - Cache only bit of the page for example user block or menu block which 
 - displays dynamic info about user name and menu based on user permission
 - won't be cached but everything else like static block
 
 
 
-### Disable Render Cache
+### Render Cache
 ## <pre><code data-trim>
 $settings['cache']['bins']['render'] = 'cache.backend.null';
 </code></pre>
@@ -158,6 +161,7 @@ Note:
 ## Template file name
 <img src = "custom/images/template_file.png">
 Note:
+- where did you get the screenshot from?
 - Twig template file name suggestions are in order from most specific to least specific
 - current file name suggestion in use has an "x" beside it
 - Along with the BEGIN OUTPUT and END OUTPUT you will find the full path to the template being rendered
@@ -178,6 +182,7 @@ Note:
 
 ## Twig cache
 Note:
+- explain why?
 - Its bad to disable twig cache
 - don't touch it
 
@@ -186,6 +191,7 @@ Note:
 
 ## kint
 Note:
+- do you have an example of this?
 - may be already familiar with knit
 - It's way better than dump()
 - kint module is sub-module of devel module which you can use as a debugging tool. you can use it from php or twig template.
