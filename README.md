@@ -199,10 +199,15 @@ Note:
 
 
 
-## Console
 
-
-
+### Console
+[drupalconsole.com](http://drupalconsole.com)
+[bit.ly/console-doc](http://bit.ly/console-doc)
+Note:
+- Drupal console is a suite of tools rum from CLI
+- It helps with debug, clear cache and run other useful commands from command line
+- Run drupal-list and it will give you list of commands that can be run from CLI
+ 
 
 
 
