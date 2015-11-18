@@ -196,6 +196,7 @@ Note:
 
 ## kint
 <img src = "custom/images/features-content-aware.png">
+
 Note:
 - do you have an example of this?
 - may be already familiar with knit
@@ -205,6 +206,7 @@ Note:
 
 ## kint - backtrace
 <img src = "custom/images/trace-review.png">
+
 Note:
 - do you have an example of this?
 - may be already familiar with knit
@@ -213,6 +215,7 @@ Note:
 
 ## kint - theme information
 <img src = "custom/images/theme-review.png">
+
 Note:
 - do you have an example of this?
 - may be already familiar with knit
