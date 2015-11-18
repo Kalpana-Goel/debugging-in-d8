@@ -116,7 +116,8 @@ if (file_exists(__DIR__ . '/settings.local.php')) {
   include __DIR__ . '/settings.local.php';
 }</code></pre>
 Note:
-- uncomment from settings.local.php
+- uncomment first part from settings.local.php
+- uncomment second part from settings.php
 - drush cr
 - Explain why? if you have a piece of content and if you want to make a change in the node
 or block twig template, to display the changes then you would need to clear the cache all the time
