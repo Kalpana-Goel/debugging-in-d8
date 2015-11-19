@@ -204,6 +204,7 @@ its compiled into PHP class and it is stored in the disk with no read permission
 
 
 ### xdebug
+<img src = "custom/images/xdebug-debugging.png">
 
 
 
