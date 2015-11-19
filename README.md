@@ -84,11 +84,12 @@ Note:
 
 
 
-##<pre>
+##
 <code>
-if (file_exists(__DIR__ . '/settings.local.php')) {
-  include __DIR__ . '/settings.local.php';
-}</code></pre>
+    if (file_exists(__DIR__ . '/settings.local.php')) {
+      include __DIR__ . '/settings.local.php';
+     }
+</code>
 Note:
 # uncomment lines from settings.php 
 
