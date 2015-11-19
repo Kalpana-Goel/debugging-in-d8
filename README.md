@@ -201,12 +201,42 @@ its compiled into PHP class and it is stored in the disk with no read permission
 
 
 ## kint
+<img src = "custom/images/features-content-aware.png">
+<pre><code data-trim>
+  kint($vars);
+</code></pre>
 Note:
 - do you have an example of this?
 - may be already familiar with knit
 - It's way better than dump()
 - kint module is sub-module of devel module which you can use as a debugging tool. you can use it from php or twig template.
 
+
+
+
+## kint - backtrace
+<img src = "custom/images/trace-preview.png">
+<pre><code data-trim>
+  kint_trace();
+</code></pre>
+
+Note:
+- do you have an example of this?
+- may be already familiar with knit
+- It's way better than dump()
+- kint module is sub-module of devel module which you can use as a debugging tool. you can use it from php or twig template.
+
+
+
+
+## kint - different themes
+<img src = "custom/images/theme-preview.png">
+
+Note:
+- do you have an example of this?
+- may be already familiar with knit
+- It's way better than dump()
+- kint module is sub-module of devel module which you can use as a debugging tool. you can use it from php or twig template.
 
 
 
