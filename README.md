@@ -203,6 +203,11 @@ its compiled into PHP class and it is stored in the disk with no read permission
 
 
 
+### xdebug
+
+
+
+
 ## kint
 <img src = "custom/images/features-content-aware.png">
 <pre><code data-trim>
@@ -240,11 +245,6 @@ Note:
 - may be already familiar with knit
 - It's way better than dump()
 - kint module is sub-module of devel module which you can use as a debugging tool. you can use it from php or twig template.
-
-
-
-
-### xdebug
 
 
 
