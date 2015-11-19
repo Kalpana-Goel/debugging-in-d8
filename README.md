@@ -1,6 +1,5 @@
 # Debugging in Drupal 8
 Note:
-- KG
 - Hello Everyone! We are going to talk about "Debugging in D8"
 
 
@@ -22,7 +21,6 @@ link for this session is. You can follow along the slides.
 <a href="https://twitter.com/kalpanagoel"><i class="fa fa-twitter"></i> kalpanagoel</a>
 
 Note:
-- KG
 - Developer at Forum One
 - Forum One is full service digital agency and does lot of work in Drupal for
 Government and non-profit organizations.
@@ -85,6 +83,16 @@ Note:
 
 
 
+
+##<pre>
+<code>
+if (file_exists(__DIR__ . '/settings.local.php')) {
+  include __DIR__ . '/settings.local.php';
+}</code></pre>
+Note:
+# uncomment lines from settings.php 
+
+
 ## [drupal.org/node/2313059](http://www.drupal.org/node/2313059)
 Note:
 - No error shown by default
@@ -100,7 +108,7 @@ $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
 Note:
 - uncomment from settings.local.php
 - drush cr
-- enabled by default???
+- enabled by default
 - Cache only bit of the page for example user block or menu block which 
 - displays dynamic info about user name and menu based on user permission
 - won't be cached but everything else like static block
@@ -110,11 +118,7 @@ Note:
 ### Render Cache
 ## <pre><code data-trim>
 $settings['cache']['bins']['render'] = 'cache.backend.null';
-</code>
-<code>
-if (file_exists(__DIR__ . '/settings.local.php')) {
-  include __DIR__ . '/settings.local.php';
-}</code></pre>
+</code></pre>
 Note:
 - uncomment first part from settings.local.php
 - uncomment second part from settings.php
@@ -166,7 +170,7 @@ Note:
 ## Template file name
 <img src = "custom/images/template_file.png">
 Note:
-- where did you get the screenshot from?
+- You can find this information by inspecting element in browser
 - Twig template file name suggestions are in order from most specific to least specific
 - current file name suggestion in use has an "x" beside it
 - Along with the BEGIN OUTPUT and END OUTPUT you will find the full path to the template being rendered
@@ -177,7 +181,7 @@ Note:
 ## Twig auto-reload
 Note:
 - This is another benefit of enabling Twig debug option
-- automatically recompile Twig templates if source code changes
+- automatically recompile Twig templates if source code changes (old templates)
 - Turn off in production
 - look in services.yml file to read more about it
 
@@ -187,7 +191,9 @@ Note:
 
 ## Twig cache
 Note:
-- explain why?
+- It will make things slower
+- If you disable Twig cache then if you wont be able to access compiled templates for debugging because
+its compiled into PHP class and it is stored in the disk with no read permission.
 - Its bad to disable twig cache
 - don't touch it
 
@@ -205,11 +211,16 @@ Note:
 
 
 
+### xdebug
+
+
+
+
 ### Console
 [drupalconsole.com](http://drupalconsole.com)
 [bit.ly/console-doc](http://bit.ly/console-doc)
 Note:
-- Drupal console is a suite of tools rum from CLI
+- Drupal console is a suite of tools run from CLI
 - It helps with debug, clear cache and run other useful commands from command line
 - Run drupal-list and it will give you list of commands that can be run from CLI
  
