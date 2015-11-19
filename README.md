@@ -206,6 +206,11 @@ its compiled into PHP class and it is stored in the disk with no read permission
 
 
 
+### xdebug
+
+
+
+
 ## kint
 <img src = "custom/images/features-content-aware.png">
 ```
@@ -248,11 +253,6 @@ Note:
 
 
 
-### xdebug
-
-
-
-
 ### Console
 [drupalconsole.com](http://drupalconsole.com)
 [bit.ly/console-doc](http://bit.ly/console-doc)
@@ -261,6 +261,14 @@ Note:
 - It helps with debug, clear cache and run other useful commands from command line
 - Run drupal-list and it will give you list of commands that can be run from CLI
  
+
+
+
+## XHProf
+<img src = "custom/images/xhprof-calls.png">
+Note:
+- XHProf in D7
+
 
 
 
