@@ -71,9 +71,10 @@ Note:
 
 
 ### Enable Error Messages
-## <pre><code data-trim>
+```
 $config['system.logging']['error_level'] = 'verbose';
-</code></pre>
+```
+
 Note:
 - cp examples.settings.local.php to settings.local.php, Uncomment lines in settings.php referring to settings.local.php 
  and uncomment the following the bottom of the file
@@ -83,13 +84,13 @@ Note:
 
 
 
+## Uncomment in settings.php
+```
+if (file_exists(__DIR__ . '/settings.local.php')) {
+  include __DIR__ . '/settings.local.php';
+}
+```
 
-##
-<code>
-    if (file_exists(__DIR__ . '/settings.local.php')) {
-      include __DIR__ . '/settings.local.php';
-     }
-</code>
 Note:
 # uncomment lines from settings.php 
 
@@ -105,9 +106,10 @@ Note:
 
 
 ###  Dynamic Page Cache
-## <pre><code data-trim>
+```
 $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
-</code></pre>
+```
+
 Note:
 - uncomment from settings.local.php
 - drush cr
@@ -119,9 +121,9 @@ Note:
 
 
 ### Render Cache
-## <pre><code data-trim>
+```
 $settings['cache']['bins']['render'] = 'cache.backend.null';
-</code></pre>
+```
 Note:
 - uncomment first part from settings.local.php
 - uncomment second part from settings.php
@@ -147,11 +149,12 @@ Note:
 
 
 ## How to enable debugging
-<pre><code data-trim>
+```
 parameters:
   twig.config:
     debug: true 
-</code></pre>
+```
+
 Note:
 - enable twig debugging
 
@@ -211,9 +214,10 @@ its compiled into PHP class and it is stored in the disk with no read permission
 
 ## kint
 <img src = "custom/images/features-content-aware.png">
-<pre><code data-trim>
+```
   kint($vars);
-</code></pre>
+```
+
 Note:
 - do you have an example of this?
 - may be already familiar with knit
@@ -225,9 +229,9 @@ Note:
 
 ## kint - backtrace
 <img src = "custom/images/trace-preview.png">
-<pre><code data-trim>
+```
   kint_trace();
-</code></pre>
+```
 
 Note:
 - do you have an example of this?
@@ -286,6 +290,13 @@ Note:
 - enable devel and webprofiler module
 - clear cache
 - Set the permission
+
+
+
+
+
+## <video data-autoplay src="custom/images/webprofiler_video.mov"></video>
+
 
 
 
@@ -389,10 +400,6 @@ Note:
 Note:
 - Provides list of all CSS and JS files that were loaded for the page request
 
-
-
-
-## <video data-autoplay src="custom/images/webprofiler_video.mov"></video>
 
 
 
