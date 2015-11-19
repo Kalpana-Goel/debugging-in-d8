@@ -260,6 +260,14 @@ Note:
 
 
 
+## XHProf
+<img src = "custom/images/xhprof-calls.png">
+Note:
+- XHProf in D7
+
+
+
+
 ## Web-profiler
 Note:
 - useful for debugging, performance testing
