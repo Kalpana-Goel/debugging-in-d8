@@ -8,8 +8,7 @@ Note:
 [bit.ly/debugging-d8](http://bit.ly/debugging-d8)
 
 Note:
-I have posted slides with speaker notes online and bit.ly
-link for this session is. You can follow along the slides.
+- I have posted slides with speaker notes online. You can follow along the slides.
 
 
 
@@ -49,7 +48,7 @@ Note:
 - First reported bug in 1947
 - Bug and debugging terms are attributed to Grace Hopper when she was working on computer at Harward University.
 - Someone discovered moth stuck and stop the operation, she made a remark that they are debugging the system 
-- and since then we are using that term.
+and since then we are using that term.
 
 
 
@@ -67,8 +66,6 @@ Note:
 
 
 ## Debugging in Drupal 8
-Note:
-- 
 
 
 
@@ -137,10 +134,9 @@ Note:
 $settings['cache']['bins']['render'] = 'cache.backend.null';
 ```
 Note:
-- uncomment first part from settings.local.php
-- uncomment second part from settings.php
+- uncomment from settings.local.php
 - drush cr
-- Explain why? if you have a piece of content and if you want to make a change in the node
+- If you have a piece of content and if you want to make a change in the node
 or block twig template, to display the changes then you would need to clear the cache all the time
 if you don't want to do that then disable render cache. 
 - Render caching enable by default to speed up page load
@@ -231,7 +227,6 @@ its compiled into PHP class and it is stored in the disk with no read permission
 ```
 
 Note:
-- do you have an example of this?
 - may be already familiar with knit
 - It's way better than dump()
 - kint module is sub-module of devel module which you can use as a debugging tool. you can use it from php or twig template.
@@ -245,35 +240,24 @@ Note:
   kint_trace();
 ```
 
-Note:
-- do you have an example of this?
-- may be already familiar with knit
-- It's way better than dump()
-- kint module is sub-module of devel module which you can use as a debugging tool. you can use it from php or twig template.
-
 
 
 
 ## kint - different themes
 <img src = "custom/images/theme-preview.png">
 
-Note:
-- do you have an example of this?
-- may be already familiar with knit
-- It's way better than dump()
-- kint module is sub-module of devel module which you can use as a debugging tool. you can use it from php or twig template.
-
 
 
 
 ### Console
 [drupalconsole.com](http://drupalconsole.com)
+|
 [bit.ly/console-doc](http://bit.ly/console-doc)
 Note:
 - Drupal console is a suite of tools run from CLI
 - It helps with debug, clear cache and run other useful commands from command line
 - Run drupal-list and it will give you list of commands that can be run from CLI
- 
+- Container:debug - displays current services for the application 
 
 
 
@@ -340,8 +324,6 @@ Note:
 
 ## Performace Timing
 <img src="custom/images/performance_timing.png">
-Note:
--
 
 
 
@@ -355,11 +337,11 @@ Note:
 
 
 
+
 ## Database
 <img src="custom/images/database_explore.png">
 Note:
 - Click on "explain" details about type of query (fast or slow)
-- table
 - display info and swappable key 
 
 
