@@ -28,6 +28,18 @@ Government and non-profit organizations.
 
 
 
+## William Hurley
+
+<a href="https://www.drupal.org/u/kgoel"><i class="fa fa-drupal"></i> wwhurley</a>
+
+<a href="https://twitter.com/kalpanagoel"><i class="fa fa-twitter"></i> wwhurley</a>
+
+Note:
+- Technical Manager at Forum One
+
+
+
+
 <!-- .element: class="heading" -->
 <!-- .slide: data-background="custom/images/09September_1.jpg"  data-state="show-header" data-header="" -->
 ## First mention of bug and debugging
